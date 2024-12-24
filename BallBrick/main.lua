@@ -93,7 +93,7 @@ end
 -- NOTE: This is not defined yet in the tutorial that i am following
 -- TODO: this would have to be called in the love.update function
 function Brick_List:updateBrick(dt)
-	print(dt)
+	print("This is a test")
 end
 
 -- End of Brick_List
