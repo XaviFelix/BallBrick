@@ -57,7 +57,9 @@ brickList:printList()
 print("Now i am going to try and insert a new brick and then print: ")
 
 local brick4 = Brick:new(2323, 232124, 4545, 566)
+local brick5 = Brick:new(232, 23, 545, 634)
 
 brickList:insert(brick4)
+brickList:insert(brick5)
 
 brickList:printList()
