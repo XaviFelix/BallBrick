@@ -21,7 +21,7 @@ function Brick_List:insert(brick)
 	table.insert(self.list, brick)
 end
 
--- NOTE: This currently works
+-- NOTE: This currently works!
 -- TODO: This needs more testing to ensure edge cases don't break it
 function Brick_List:constructLevel()
 	self.rows = 8
