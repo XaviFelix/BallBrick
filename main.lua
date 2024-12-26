@@ -12,8 +12,9 @@ function love.load()
 	ball = Ball:new(300, 300, 10, 300, 300)
 	platform = Platform:new(500, 500, 70, 20, 300)
 	-- brick = Brick:new(100, 100, 50, 30)
-	brickList:insert(Brick:new(100, 100, 50, 30))
-	brickList:insert(Brick:new(160, 100, 50, 30))
+	-- brickList:insert(Brick:new(100, 100, 50, 30))
+	-- brickList:insert(Brick:new(160, 100, 50, 30))
+	brickList:constructLevel()
 end
 
 function love.update(dt)
