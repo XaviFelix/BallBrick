@@ -48,8 +48,6 @@ function Brick_List:drawBricks()
 	end
 end
 
--- NOTE: This is not defined yet in the tutorial that i am following
--- TODO: this would have to be called in the love.update function
 function Brick_List:updateBrick(dt)
 	print("This function is called from a different file")
 end
