@@ -1,6 +1,6 @@
 local input = {}
 
-function input.movePlatform(dt)
+function input.movePlatform(platform, dt)
 	if love.keyboard.isDown("right") then
 		platform.x = platform.x + platform.speed_x * dt
 	end
