@@ -21,6 +21,12 @@ function Brick_List:insert(brick)
 	table.insert(self.list, brick)
 end
 
+function Brick_List:printList()
+	for i, brick in ipairs(self.list) do
+		print("Brick " .. i .. ": x = " .. brick.x .. ", y = " .. brick.y)
+	end
+end
+
 -- NOTE: This currently works!
 -- TODO: This needs more testing to ensure edge cases don't break it
 function Brick_List:constructLevel()
